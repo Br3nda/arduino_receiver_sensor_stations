@@ -1,4 +1,5 @@
-== Arduino 433MHZ to OpenHAB
+Arduino 433MHZ to OpenHAB
+=========================
 
 receiver_sensor_stations.ino
 * runs on arduino
@@ -16,6 +17,7 @@ e.g.
   Station "kitchen", with a temp reading Needs an openHab item called:
   Arduino_kitchentemp
 
-== More info
+More info
+=========
 http://allthethings.nz
 
