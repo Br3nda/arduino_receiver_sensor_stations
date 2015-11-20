@@ -21,3 +21,8 @@ More info
 =========
 http://allthethings.nz
 
+Copying/Licence
+===============
+AGPLa 3.0
+See COPYING.md
+
