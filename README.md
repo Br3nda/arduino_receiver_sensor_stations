@@ -16,3 +16,6 @@ e.g.
   Station "kitchen", with a temp reading Needs an openHab item called:
   Arduino_kitchentemp
 
+== More info
+http://allthethings.nz
+
