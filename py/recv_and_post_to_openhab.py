@@ -31,10 +31,11 @@ def listen_for_data():
         parts = line.split(';')
         for p in parts:
           key,val = p.split('=')
- 	  val=val
           print "Key = '{key}', value='{val}'".format(key=key,val=val)
           send_status_to_openhab(key=key, value=val, station=station)
           #send_status_to_openhab(key=key, value="1", station=station)
+      else:
+        print "unrecognised message: ", line
     except Exception, e:
       print e
       #raise
